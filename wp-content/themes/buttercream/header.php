@@ -51,7 +51,7 @@
 	$buttercream_header_image = get_header_image();
 
 	if ( false == buttercream_is_a_default_header() ) {
-		$buttercream_custom = 'custom-';
+		$buttercream_custom = '';
 	}
 	else {
 		$buttercream_custom = '';

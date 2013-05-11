@@ -1761,9 +1761,9 @@ body.style-yellow {
 	}
 	#header-imagesm {
 		display: block;
-		margin: 0px auto -70px auto;
+		margin: 0px auto -82px auto;
 		width: 200px;
-		height: 200px;
+		height: 123px;
 		z-index: 100;
 		position: relative;
 	}
@@ -1876,9 +1876,9 @@ body.style-yellow {
 	}
 	#header-imagesm {
 		display: block;
-		margin: 0px auto -70px auto;
+		margin: 0px auto -82px auto;
 		width: 200px;
-		height: 200px;
+		height: 123px;
 		z-index: 100;
 		position: relative;
 	}

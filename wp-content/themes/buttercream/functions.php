@@ -273,11 +273,12 @@ function buttercream_alternate_default_headers() {
 	else {
 		$buttercream_options = buttercream_get_theme_options();
 		$buttercream_style = $buttercream_options['theme_style'];
+		$buttercream_style_new = 'kasalny_logo';
 ?>
 
 	<style type="text/css">
 	#header-imagesm {
-		background-image:url('<?php echo get_template_directory_uri(); ?>/img/<?php echo $buttercream_style; ?>-sm.png');
+		background-image:url('<?php echo get_template_directory_uri(); ?>/img/<?php echo $buttercream_style_new; ?>-sm.png');
 	}
 	.bluebar {
 		background-image:url('<?php echo get_template_directory_uri(); ?>/img/bar-<?php echo $buttercream_style; ?>.png');

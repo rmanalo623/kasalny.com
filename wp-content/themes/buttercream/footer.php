@@ -11,18 +11,9 @@
 ?>
 		<?php buttercream_content_nav( 'nav-below' ); ?>
 	</div><!-- #main -->
-
-	<div class="sidebars">
-		<?php get_sidebar(); ?>
-		<?php get_sidebar( '2' ); ?>
-		<?php get_sidebar( '3' ); ?>
-	</div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<?php do_action( 'buttercream_credits' ); ?>
-			<a href="<?php echo esc_url( 'http://www.carolinemoore.net' ); ?>" target="_blank" title="<?php _e( 'Buttercream Theme by Caroline Moore' , 'buttercream' ); ?>"><?php _e( 'Buttercream Theme by Caroline Moore' , 'buttercream' ); ?></a> |
-			<?php _e( 'Copyright' , 'buttercream' ) ?> <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?> |
-			<a href="http://www.wordpress.org" target="_blank" title="<?php _e( 'Powered by WordPress' , 'buttercream' ); ?>"><?php _e( 'Powered by WordPress' , 'buttercream' ); ?></a>
+			<?php _e( 'Copyright' , 'buttercream' ) ?> <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>		
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer .site-footer -->
 	<?php

@@ -36,6 +36,8 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link href='http://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/layouts/ie.css"/>
 <![endif]-->
@@ -73,8 +75,17 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
-			<h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<h1 class="site-title" style="display: none;"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2 class="site-description" style="display: none;"><?php bloginfo( 'description' ); ?></h2>
+			<ul class="topnav">
+				<li><a href="/about">about</a></li>
+				<li><a href="/service">service</a></li>
+				<li><a href="/gallery">gallery</a></li>
+				<li><a href="/press">press</a></li>
+				<li><a href="/reviews">reviews</a></li>
+				<li><a href="/blog">blog</a></li>
+				<li><a href="/contact">contact</a></li>
+			</ul>
 		</hgroup>
 	</header><!-- #masthead .site-header -->
 

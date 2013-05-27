@@ -140,6 +140,7 @@ hr {
 /* Text elements */
 p {
 	margin: 1.0em 0;
+	color: #c4c4c4;
 }
 ul, ol {
 	margin: 0 0 1.5em 3em;
@@ -935,6 +936,31 @@ hgroup {
 	padding: 0px;
 	color: #fff;
 }
+
+ul.topnav {
+	width: 100%;
+	font-family: "Stint Ultra Condensed", serif; /*'Allura', cursive;*/
+	font-size: 18px;
+	display: block; 
+	text-align:center;
+	padding: 20px 0;
+}
+
+ul.topnav a {
+	color: gray;
+}
+
+ul.topnav li a:hover {
+	color:green; 
+	text-decoration:underline;
+}
+
+ul.topnav li {
+	float: left;
+	list-style: none;
+	margin: auto 34px;
+	display: inline-block;
+}
 /* End Header/Nav Menu */
 
 
@@ -1368,7 +1394,7 @@ body.style-cupcake {
 .style-cupcake .site-title,
 .style-cupcake .site-title a,
 .style-cupcake h1, h2, h3, h4, h5, h6 {
-	color: #ef3d46;
+	color: #88E1E3;
 }
 .style-cupcake .site-description {
 	color: #82573f;
@@ -1510,6 +1536,22 @@ body.style-yellow {
 	clear: both;
 }
 
+/* =Custom
+--------------------------------------*/
+
+#facebook-widget {
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	padding: 20px;
+}
+
+#twitter-widget {
+	width: 485px;
+	float: left;
+	margin-left: 20px;
+	padding: 7px;
+}
 
 /* =Media Queries
 --------------------------------------*/
@@ -1703,6 +1745,29 @@ body.style-yellow {
 	li.trackback p {
 		width: 390px;
 	}
+	ul.topnav {
+		width: 100%;
+		font-family: "Stint Ultra Condensed", serif; /*'Allura', cursive;*/
+		font-size: 18px;
+		display: block; 
+		text-align:center;
+	}
+
+	ul.topnav a {
+		color: gray;
+	}
+
+	ul.topnav li a:hover {
+		color:green; 
+		text-decoration:underline;
+	}
+
+	ul.topnav li {
+		float: left;
+		list-style: none;
+		margin: auto 20px;
+		display: inline-block;
+	}
 
 }
 
@@ -1800,6 +1865,30 @@ body.style-yellow {
 	li.pingback p,
 	li.trackback p {
 		width: 390px;
+	}
+
+	ul.topnav {
+		width: 100%;
+		font-family: "Stint Ultra Condensed", serif; /*'Allura', cursive;*/
+		font-size: 18px;
+		display: block; 
+		text-align:center;
+	}
+
+	ul.topnav a {
+		color: gray;
+	}
+
+	ul.topnav li a:hover {
+		color:green; 
+		text-decoration:underline;
+	}
+
+	ul.topnav li {
+		float: left;
+		list-style: none;
+		margin: auto 20px;
+		display: inline-block;
 	}
 
 }
